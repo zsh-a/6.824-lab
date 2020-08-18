@@ -24,9 +24,9 @@ type ExampleReply struct {
 }
 
 const (
-	Waiting    = iota
-	MapTask    = iota
-	ReduceTask = iota
+	Waiting = iota
+	MapTask
+	ReduceTask
 )
 
 const (

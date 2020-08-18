@@ -12,10 +12,10 @@ import (
 )
 
 const (
-	Idle       = iota
-	InProgress = iota
-	Completed  = iota
-	Crashed    = iota
+	Idle = iota
+	InProgress
+	Completed
+	Crashed
 )
 
 type WorkerState struct {
